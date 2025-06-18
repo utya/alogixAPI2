@@ -9,7 +9,7 @@ st.title("🧪 LiteLLM API Инструмент для управления по
 
 # Ввод Base URL и токена
 st.sidebar.header("🔐 Настройки подключения")
-base_url = st.sidebar.text_input("Base URL", "https://dev-ai-api.adxsales.com")
+base_url = st.sidebar.text_input("Base URL", "url")
 auth_token = st.sidebar.text_input("API Token", type="password")
 
 headers = {"Authorization": f"Bearer {auth_token}"}
